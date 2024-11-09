@@ -12,5 +12,4 @@
 ### Instrucciones para Subir los Archivos a GitHub
 
 1. **Inicializa el repositorio**:
-   ```bash
    git init
