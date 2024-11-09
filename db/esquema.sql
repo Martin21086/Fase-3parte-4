@@ -1,0 +1,14 @@
+CREATE TABLE tickets (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  modulo VARCHAR(255),
+  severidad VARCHAR(255)
+);
+
+CREATE TABLE historial (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  ticket_id INT,
+  modulo VARCHAR(255),
+  severidad VARCHAR(255),
+  fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (ticket_id) REFERENCES tickets(id)
+);
