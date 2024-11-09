@@ -1,7 +1,5 @@
-# legendary-octo-system
-Trabajo de Fase 3 punto 4 
-
 # Trabajo de Bases de Datos Fase III
+Punto 4 
 
 ## Integrantes
 - Martin Contreras Morales
