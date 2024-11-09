@@ -1,11 +1,11 @@
 ## Intalar las dependencias
-npm install
+## npm install
 
 ## Configurar la Base de Datos
-mysql -u tu_usuario -p tu_base_de_datos < db/esquema.sql
+## mysql -u tu_usuario -p tu_base_de_datos < db/esquema.sql
 
 ## Iniciar Servidor
-node index.js
+## node index.js
 
 ## API
 
